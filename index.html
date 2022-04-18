@@ -86,10 +86,17 @@
             </select><br><br>
             
             <div class="table-responsive"><label><strong>Date/Time</strong></label></div>
-            
+ 
             <div class="">
                     <input type="datetime-local" id="dateTime" class="form-control" value="" />
             </div><br>
+
+            <div class="mb-3 row">
+                <label for="inputCallerEmail" class="col-sm-4 col-form-label"><strong>Timezone:</strong></label>
+                <div class="col-sm-4">
+                    <input type="text" id="timeZone" rows="1" cols="30" wrap="soft" class="form-control">
+                </div>
+            </div>
 
             <div class="mb-3 row">
                 <label for="inputCallBackNo" class="col-sm-4 col-form-label"><strong>Result:</strong></label>
@@ -115,7 +122,7 @@
 
     </form>
 
-    <textarea class="test" name="text" id="temp" wrap="soft" hidden></textarea><br><br>    
+    <textarea class="test" name="text" id="temp" wrap="soft"></textarea><br><br>    
 
     <div class="cpy">
         <div class="container">
